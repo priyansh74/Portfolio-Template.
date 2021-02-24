@@ -1,0 +1,61 @@
+@import "colours";
+
+#footer{/*footer section of the web page */
+    padding: 3% 2% 3% 4%;
+    background-color: $header-color;
+    height: 300px;
+    section{
+         max-width: 29%;
+        float: left;
+        padding-right: 9%;
+        h1{
+            color:$white;
+            font-size: 2rem;
+            font-weight: 400;
+            margin-bottom: 5%;
+        }
+        p{
+            color:$header-text;
+            line-height: 1.5;
+            font-size: 1.1rem;
+        }
+    }
+    .footer-blog{
+        
+        div{
+            padding-right:0;
+            width: 120%;
+            margin : 0 0  2rem;
+        }
+        h3{
+            color:$white;
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+        p{
+            color:$header-text;
+           font-size: 0.8rem;
+        }
+        img{
+            float: left;
+            margin-bottom: 2px;
+            padding: 1%;
+            padding-right: 5%;
+        }
+        
+    }
+    .footer-instagram{
+        p{
+            padding:20% 40% 10% 10%;
+        }
+    }
+    
+}
+.footer-end{
+    
+    background-color:$footer-end-color;
+    padding : 2.2% 4%;
+    p{
+        color:$header-text;
+    }
+}

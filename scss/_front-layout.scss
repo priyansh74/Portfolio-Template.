@@ -1,0 +1,63 @@
+@import "colours";
+@mixin  button {/*using mixin //pracitce */
+   border: none;
+   padding: 14px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 1rem;
+   cursor: pointer;
+   border-radius: 0.4rem;
+   border: 1rem;
+   
+}
+#front-layout{ /*Full Front layout nested inside here */
+   
+   .front-layout-up{
+      max-width: 65%;
+      padding: 2.8% 2% 3% 4%;
+      h1{
+         color:$header-color;
+         font-size: 2.6rem;
+         padding-bottom: 1%;
+      }
+      p{
+         color:$header-color;
+         line-height: 1.5;
+      }
+   }
+   .front-layout-mid{
+      display: flex;
+      justify-content: space-between;
+      
+
+      padding: 2.8% 2% 0% 4%;
+      p{
+         color:$header-text;
+         font-size: 0.8rem;
+      }
+      h1{
+         color:$header-color;
+         font-size: 2.2rem;
+         display: inline-block;
+      }
+      .button-1{
+         @include button;
+          background-color: $button-background;
+          color:$white;
+          position: absolute;
+          left:82%;
+      
+      }
+   }
+   .front-layout-down{
+      padding: 2.8% 0% 3% 3%;
+      img{
+         margin : 1%;
+         height:255px;
+         width: 385px;
+         cursor: pointer;
+      }
+
+   }
+}

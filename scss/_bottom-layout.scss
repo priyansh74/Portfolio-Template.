@@ -1,0 +1,24 @@
+@import "colours";
+
+#bottom-layout{
+    padding: 2.8% 2% 3% 4%;
+    background-color: $breadcrumb-nav;
+    img{
+        height: 20px;
+        padding: 9px;
+        border-radius: 2rem;
+        border:2px solid $grey;
+        margin-left: 48.2%;
+        margin-bottom: 3%;
+    }
+    p{
+        text-align: center;
+        line-height: 1.8;
+        color:$grey;
+        strong{
+            color: $header-color;
+        }
+    }
+    
+
+}

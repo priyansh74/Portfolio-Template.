@@ -1,0 +1,25 @@
+@import "colours";
+
+#about-layout{/*About section of the page : FULL*/
+    
+    padding: 2.8% 2% 3% 0%;
+    color:$header-color;
+    i{
+        float: left;
+        margin: 10%;
+        margin-top: 2%;
+        height: 45px;
+        width: 40px;
+    }
+    div{
+        display: inline-block;
+        max-width: 26%;
+        margin: 2%;
+        
+        p{
+            line-height: 1.5;
+        }
+    }
+    
+    }
+
